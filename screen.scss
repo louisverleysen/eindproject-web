@@ -1,3 +1,53 @@
-h1 {
-    color: red;
+footer.footer {
+    background-color: red;
+    height: 20%;
+    border-top: solid thin 2p;
+    //border-bottom: solid 2px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    padding-left: 38%;
+
+
+
+    div.naam-site {
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        div.catogory {
+            text-transform: capitalize;
+            padding-top: 20px;
+            padding-bottom: 10px;
+
+            ul {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+
+                li {
+                    list-style: none;
+                    display: inline;
+                    font-size: 1.5em;
+
+                    a {
+                        color: blue;
+                    }
+
+                    &:not(:last-child) {
+                        margin-right: 0.5em;
+                    }
+                }
+            }
+        }
+
+        div {
+            i {
+                color: hotpink;
+                padding-top: 20px;
+                padding-bottom: 5px;
+            }
+        }
+    }
+
 }
